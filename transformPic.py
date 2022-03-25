@@ -17,8 +17,8 @@ def getPicUrlFromExcel():
 def transform():
     rows = getPicUrlFromExcel()
     print(rows)
-    num = 99
-    for i in range(102,len(rows)):
+    num = 114
+    for i in range(117,len(rows)):
         num = num + 1
         print(i)
         url = str(rows[i][0])
